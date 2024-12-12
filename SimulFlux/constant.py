@@ -1,0 +1,9 @@
+import math
+
+SCREEN_WIDTH, SCREEN_HEIGHT = 1280, 720
+CENTER = 0.5 * SCREEN_WIDTH, 0.5 * SCREEN_HEIGHT
+C = 1
+XMIN = -CENTER[0]
+YMIN = -CENTER[1]
+NCOLS = math.floor(-2 * XMIN / C) + 1
+NLIGNES = math.floor(-2 * YMIN / C) + 1

@@ -1,0 +1,8 @@
+SCREEN_WIDTH, SCREEN_HEIGHT = 1280, 720
+GAME_WIDTH, GAME_HEIGHT = 600, 600
+TOP_LEFT = top_left_x, top_left_y = (150, 50)
+C = 50
+NROWS, NCOLS = 4,10
+BOTTOM = top_left_y + GAME_HEIGHT
+BULLET_W, BULLET_H = 3, 5
+SCORE_CORNER = (top_left_x + C * NROWS + 50, top_left_y + C * NCOLS / 2 - 100)
